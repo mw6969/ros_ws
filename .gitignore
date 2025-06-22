@@ -1,3 +1,37 @@
+# === ROS build artifacts ===
 build/
 devel/
+install/
+
+# === ROS logs ===
+log/
+logs/
+
+# === VSCode settings ===
 .vscode/
+
+# === Python cache ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === CMake, catkin, colcon ===
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+catkin_generated/
+
+# === Launch file auto-backups ===
+*.launch~
+
+# === IDE/editor files ===
+*.swp
+*.swo
+.idea/
+*.iml
+
+# === Custom ===
+*.log
+*.bak
